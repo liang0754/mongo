@@ -4,16 +4,16 @@
 
 垂直拆表是对数据表进行垂直拆分的一种方式，常见的是把一个多字段的大表按常用字段和非常用字段进行拆分，每个表里面的数据记录数一般情况下是相同的，只是字段不一样，使用主键关联
 
-![](https://github.com/liang0754/mongo/a.jpg)
+![](https://github.com/liang0754/mongo/blob/master/a.jpg)
 
 2、水平拆分
 
-![](https://github.com/liang0754/mongo/b.jpg)
+![](https://github.com/liang0754/mongo/blob/master/b.jpg)
 
 3、垂直水平拆分
 
 垂直水平拆分，是综合了垂直和水平拆分方式的一种混合方式，垂直拆分把不同类型的数据存储到不同库中，再结合水平拆分，使单表数据量保持在合理范围内，提升总TPS，提升性能
-![](https://github.com/liang0754/mongo/c.jpg)
+![](https://github.com/liang0754/mongo/blob/master/c.jpg)
 
 https://docs.mongodb.com/manual/applications/data-models/
 https://segmentfault.com/q/1010000000589390
