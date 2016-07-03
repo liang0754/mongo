@@ -10,3 +10,8 @@
 
 ![](http://mmbiz.qpic.cn/mmbiz/LaW7jDBKBg1Phqd1YJicxr4tcVbpvIVEsgbFom33sic6dja5OomDX5Cdt0aia15BSKNrb8ocHqeVbmJbLgIUXlM9g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+3、垂直水平拆分
+
+垂直水平拆分，是综合了垂直和水平拆分方式的一种混合方式，垂直拆分把不同类型的数据存储到不同库中，再结合水平拆分，使单表数据量保持在合理范围内，提升总TPS，提升性能
+
+https://docs.mongodb.com/manual/applications/data-models/
