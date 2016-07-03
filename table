@@ -4,7 +4,7 @@
 
 垂直拆表是对数据表进行垂直拆分的一种方式，常见的是把一个多字段的大表按常用字段和非常用字段进行拆分，每个表里面的数据记录数一般情况下是相同的，只是字段不一样，使用主键关联
 
-![](https://github.com/liang0754/mongo/a.jpg)
+![](https://github.com/liang0754/mongo/blob/master/a.jpg)
 
 2、水平拆分
 
